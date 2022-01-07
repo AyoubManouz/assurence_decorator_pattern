@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>application</OriginalElement>
+  <nodes>
+    <node x="426.5" y="256.0">application.Incendie</node>
+    <node x="142.5" y="256.0">application.Vol</node>
+    <node x="187.33333333333331" y="0.0">application.Assurance</node>
+    <node x="284.5" y="256.0">application.BrisGlace</node>
+    <node x="196.0" y="123.0">application.Option</node>
+    <node x="0.0" y="256.0">application.Inondation</node>
+    <node x="31.40625" y="123.0">application.RespCivil</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="application.RespCivil" target="application.Assurance">
+      <point x="0.0" y="-26.5" />
+      <point x="92.40625" y="83.0" />
+      <point x="210.20833333333331" y="83.0" />
+      <point x="-38.125" y="26.5" />
+    </edge>
+    <edge source="application.Incendie" target="application.Assurance">
+      <point x="40.66666666666663" y="-26.5" />
+      <point x="528.1666666666666" y="196.0" />
+      <point x="478.405303030303" y="196.0" />
+      <point x="478.405303030303" y="73.0" />
+      <point x="301.7083333333333" y="73.0" />
+      <point x="53.375" y="26.5" />
+    </edge>
+    <edge source="application.Incendie" target="application.Option">
+      <point x="7.105427357601002E-15" y="-26.5" />
+      <point x="487.5" y="206.0" />
+      <point x="343.1875" y="206.0" />
+      <point x="68.6875" y="26.5" />
+    </edge>
+    <edge source="application.Inondation" target="application.Assurance">
+      <point x="-40.66666666666663" y="-26.5" />
+      <point x="20.33333333333337" y="73.0" />
+      <point x="194.95833333333331" y="73.0" />
+      <point x="-53.375" y="26.5" />
+    </edge>
+    <edge source="application.Inondation" target="application.Option">
+      <point x="0.0" y="-26.5" />
+      <point x="61.0" y="206.0" />
+      <point x="205.8125" y="206.0" />
+      <point x="-68.6875" y="26.5" />
+    </edge>
+    <edge source="application.Vol" target="application.Option">
+      <point x="0.0" y="-26.5" />
+      <point x="203.5" y="226.0" />
+      <point x="245.0625" y="226.0" />
+      <point x="-29.4375" y="26.5" />
+    </edge>
+    <edge source="application.Vol" target="application.Assurance">
+      <point x="-40.66666666666663" y="-26.5" />
+      <point x="162.83333333333337" y="196.0" />
+      <point x="163.90625" y="196.0" />
+      <point x="163.90625" y="93.0" />
+      <point x="225.45833333333331" y="93.0" />
+      <point x="-22.875" y="26.5" />
+    </edge>
+    <edge source="application.BrisGlace" target="application.Assurance">
+      <point x="40.66666666666666" y="-26.5" />
+      <point x="386.16666666666663" y="236.0" />
+      <point x="385.09375" y="236.0" />
+      <point x="385.09375" y="83.0" />
+      <point x="286.4583333333333" y="83.0" />
+      <point x="38.125" y="26.5" />
+    </edge>
+    <edge source="application.Option" target="application.Assurance">
+      <point x="-52.33333333333334" y="-26.5" />
+      <point x="222.16666666666663" y="103.0" />
+      <point x="240.70833333333331" y="103.0" />
+      <point x="-7.625" y="26.5" />
+    </edge>
+    <edge source="application.BrisGlace" target="application.Option">
+      <point x="0.0" y="-26.5" />
+      <point x="345.5" y="226.0" />
+      <point x="303.9375" y="226.0" />
+      <point x="29.4375" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="234.5" y="93.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
